@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
         <div className='cryptoHeader'>
-          <input type='text' placeholder='Bitcoin...'
+          <input type='text' placeholder='Write your favorite coin...'
           onChange={(e) => setSearchWord(e.target.value)}/>
         </div>
         <div className='cryptoDisplay'>
